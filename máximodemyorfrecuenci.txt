@@ -1,0 +1,24 @@
+.
+.
+.
+
+while cent == 0:
+    .
+    .
+    .
+    if band == 0:   # se inicializa variables para la máxima frecuencia
+        c = 0          # contador de formas de pago consecutiva
+        fp_ant = fp  # como es la primera forma de pago, se toma como patrón de comparación
+        c_mayor_fp = 0  # valor total del contador con la forma de pago de máxima frecuencia consecutiva
+    else:   # Esto aplica a partir de la segunda iteración.
+        if fp == fp_ant:  # si las formas de pago consecutivas son iguales entonces la cuento.
+            c +=1
+        else:     # Acá se encontrón con una forma de pago diferente
+            if c > mayor_fp:  # Se compara para verificar sí es mayor.
+                c_mayor_fp = c   # Valor de la cantidad máxima de la forma de pago consecutivas
+                fp_mayor = fp     # Esta es la nueva forma de pago con mayor frecuencia consecutiva
+            fp_ant = fp  # la forma de pago pasa a ser la forma de pago anterior
+            c = 0         # se reinicia el contador de frecuencia consecutiva.
+    .
+    .
+    .
