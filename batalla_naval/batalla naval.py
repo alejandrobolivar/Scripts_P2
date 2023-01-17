@@ -47,7 +47,7 @@ arch3=open('nodestruidos.txt','w')
 # Procesar el archivo
 for registro in arch1:
 	linea = registro.split(',')
-	ID=linea[0]
+	ID = linea[0]
 	print(ID)
 	Dentrebarcos = float(linea[1])
 	print(Dentrebarcos)
