@@ -38,29 +38,32 @@ c) Una milla/hora equivale a 1,61 km/hora.
 Definiciones:
 Infractor: El que comete una infracción
 Infracción: Incumplimiento de algún tipo de norma que regula un comportamiento en un contexto determinado.
-'Variables de Entrada
-conductor As String = ""
-genero As Integer
-hh_circ As Integer
-vel_reg As Single
-resp As Char
-
-'Variables de proceso
-cont_veh_t2_ni, cont_veh_t2, band_p3, cont_p4, cont_p5 As Integer
-acum_p5 As Single
-vel_reg2 As Single
-
-'Variables de Salida
-multa As Single
-porc_p2 As Single
-cant_p3 As Integer
-conductor_p4 As String = ""
-multa_p4 As Single
-prom_p5 As Single
 '''
 
-# inicializacion de variables
+# Variables de Entrada
+conductor: str = ""
+genero: int
+hh_circ: int
+vel_reg: float
 
+# Variables de proceso
+cont_veh_t2_ni: int
+cont_veh_t2: int
+band_p3: int
+cont_p4: int
+cont_p5: int
+acum_p5: float
+vel_reg2: float
+
+# Variables de Salida
+multa: float
+porc_p2: float
+cant_p3: int
+conductor_p4: str = ""
+multa_p4: float
+prom_p5: float
+
+# inicializacion de variables
 cont_veh_t2_ni = 0
 cont_veh_t2 = 0
 band_p3 = 0
