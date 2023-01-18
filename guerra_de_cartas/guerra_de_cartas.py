@@ -9,17 +9,17 @@ Se dispone de dos archivos de datos “jugador1.txt” y “jugador2.txt”, don
 cartas que le corresponde a cada jugador. Considere que cada archivo contiene:
 En la primera línea de datos el Nombre del Jugador y a partir de la segunda línea,
 cada una de las cartas que tiene en la pila.
-Desarrolle un programa tipo Aplicación de Consola VB2010 que procese la información de los archivos y genere el archivo
+Desarrolle un programa que procese la información de los archivos y genere el archivo
 “resultados.txt” que contenga en cada línea el nombre del jugador que gana la ronda y cuantas cartas gana, en
 caso de haber empate debe colocar la palabra guerra.
 Además determine e imprima por consola:
 1. Porcentaje de veces que hubo guerra en el juego. (2.5 puntos)
 2. Nombre del Jugador ganador. (2.5 puntos)
 Consideraciones:
- La pila de cartas se dividió al inicio de manera uniforme, es decir, los dos jugadores tienen la misma cantidad de
+a) La pila de cartas se dividió al inicio de manera uniforme, es decir, los dos jugadores tienen la misma cantidad de
 cartas.
- Se desconoce la cantidad de cartas que había en la pila inicial.
- Si las cartas se acaban y termina la ronda en guerra, no se le asignan las cartas a ningún jugador.
+b) Se desconoce la cantidad de cartas que había en la pila inicial.
+c) Si las cartas se acaban y termina la ronda en guerra, no se le asignan las cartas a ningún jugador.
 '''
 # variables de entrada
 jugador1: str
