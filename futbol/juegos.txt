@@ -1,7 +1,7 @@
 1/09/2010, sudafrica, brasil, 2, 5
 3/09/2010, argentina, francia, 4, 1
 5/09/2010, uruguay, brasil, 4, 0
-7/09/2010, africa , españa, 5, 5
+7/09/2010, africa , espaï¿½a, 5, 5
 9/09/2010, japon, dinamarca, 1, 7
 11/09/2010, inglaterra, alemania, 2, 2
 13/09/2010, paraguay, grecia, 6, 1
