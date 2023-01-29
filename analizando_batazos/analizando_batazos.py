@@ -22,9 +22,9 @@ imprima por pantalla las siguientes estadísticas:
 CONSIDERACIONES
 a) Distancia Horizontal máxima de alcance (m), se calcula según la siguiente
 fórmula:
-
+Xmax = (Velocidad) ** 2 * sin(2 * Angulo) / 9.81
 b) Altura del Batazo (m), se calcula según la siguiente la fórmula:
-
+Y = AlturaBateo + Largo * tan(Angulo) - 9.81 * (Largo) ** 2 / (2 * (Velocidad) ** 2 * (cos(Angulo)) ** 2)
 c) Los tipos de Batazo son:
 Tipo de Batazo; Condición
 Dentro del Cuadro; Xmax <= 36.88
@@ -108,7 +108,7 @@ while linea < len(registro):
             arch2.write(f'{Nomb}\n')
             ContJonron += 1
 
-            # Obtencion del jonron mas largo
+            # p2. Obtencion del jonron mas largo
             if BandMayor:
                 NombMayor = Nomb
                 VelocidadMayor = Velocidad
