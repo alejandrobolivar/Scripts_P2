@@ -23,6 +23,7 @@ toda la lista.
 enemigos
 
 '''
+
 # Variales auxiliares
 
 mayor_elim = 0
